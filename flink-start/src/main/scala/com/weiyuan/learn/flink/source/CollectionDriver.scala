@@ -17,7 +17,7 @@ object CollectionDriver {
     // 创建flink实时流的执行环境对象
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     // 获取集合数据源，flink会将实时流数据封装为DataStream进行操作
-    val source = env.fromCollection(List(1, 2, 3, 4))
+    val source = env.fromCollection(List(1, 2, 3, 4, 14, 15, 54, 5, 5, 7865, 5, 6, 6879, 979, 6))
     source.print()
     env.execute("flink-start1")
   }
