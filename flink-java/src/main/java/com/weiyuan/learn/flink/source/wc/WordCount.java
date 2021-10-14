@@ -1,6 +1,6 @@
-package com.weiyuan.learn.flink.wc;
+package com.weiyuan.learn.flink.source.wc;
 
-import com.weiyuan.learn.flink.wc.funtion.MyFlatMapper;
+import com.weiyuan.learn.flink.source.wc.funtion.MyFlatMapper;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;

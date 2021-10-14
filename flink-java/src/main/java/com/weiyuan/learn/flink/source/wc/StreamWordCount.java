@@ -1,14 +1,9 @@
-package com.weiyuan.learn.flink.wc;
+package com.weiyuan.learn.flink.source.wc;
 
-import com.weiyuan.learn.flink.wc.funtion.MyFlatMapper;
-import org.apache.flink.api.java.DataSet;
-import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.operators.DataSource;
+import com.weiyuan.learn.flink.source.wc.funtion.MyFlatMapper;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
-import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
-import org.apache.flink.streaming.api.environment.LocalStreamEnvironment;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package com.weiyuan.learn.flink.wc.funtion;
+package com.weiyuan.learn.flink.source.wc.funtion;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 
