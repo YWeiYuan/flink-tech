@@ -5,6 +5,9 @@ import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.util.Collector;
 
+/**
+ * @author huanglongquan
+ */
 public class MyFlatMapper implements FlatMapFunction<String, Tuple2<String, Integer>> {
 
     @Override
